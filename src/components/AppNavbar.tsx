@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 // App Imports
 import "./AppNavbar.css";
+import UserProfileNavbar from './UserProfileNavbar';
 
 function AppNavbar() {
   return (
@@ -19,6 +20,7 @@ function AppNavbar() {
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
           </Nav>
+          <UserProfileNavbar/>
         </Navbar.Collapse>
       </Container>
     </Navbar>
